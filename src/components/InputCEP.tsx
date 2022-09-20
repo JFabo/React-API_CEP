@@ -2,8 +2,9 @@ export default function () {
 
 
     return <>
-        <input type="text" value="Enviar" />
-    
-        <input type="text">Aqui</input>
+        <div className="input-container">
+        <label htmlFor="input-code">Insira seu CEP</label>
+        <input type="text" placeholder="*****-***" maxLength={9}/>
+        </div>
     </>
 }
