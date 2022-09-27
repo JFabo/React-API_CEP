@@ -168,17 +168,22 @@ button:hover {
   color:#262626;
   border-radius: 5px;
   padding: 1em;
-  margin: 2em;
+  margin: 1em;
   position: relative;
 }
 
 .mod-search label{
   padding-left: 1em;
-  width: 100%;
   padding-right: 1em;
   background-color: #3d3d3d;
   color: #fff;
   display: block;
+}
+
+.mod-search > div {
+  background-color: #3d3d3d;
+  color: white;
+  border-radius: 3px;
 }
 
 .mod-search>input{
