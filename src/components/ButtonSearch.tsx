@@ -5,8 +5,6 @@ import InputEstados from "../components/InputEstados";
 
 export default function () {
 
-    const [UF, setUF] = useState("")
-
     return <>
        <div className="modal">
                     <button className="bt-close">X</button>
@@ -14,11 +12,11 @@ export default function () {
                     <form>
                         <div>
                             <label>Coloque o Estado: </label>
-                            <InputEstados setUF={setUF}/>
+                            <InputEstados/>
                         </div>
                         <div>
                            <label>Coloque a Cidade: </label>
-                           <InputCidades UF= {UF}/>
+                           <InputCidades/>
                         </div>
                     </form>
                     

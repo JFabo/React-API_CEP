@@ -20,7 +20,7 @@ export default function () {
         }
         setError(false)
         setUF(responseCode.UF)
-        setCidade(responseCode.localidades)
+        setCidade(responseCode.localidade)
     }
 
     const codeMask = (ev: React.KeyboardEvent<HTMLInputElement>) => {
